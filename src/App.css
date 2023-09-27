@@ -72,7 +72,7 @@ input[type="text"]::placeholder{
 /* Reset button */
 .reset-button {
 
-  background-color: #ff6b6b;
+  background-color: #741FEA;
   color: #fff;
   border: none;
   padding: 20px 16px;
@@ -87,7 +87,7 @@ input[type="text"]::placeholder{
 
 
 .reset-button:hover {
-  background-color: #ff4444;  
+  background-color: #6200ee;  
 }
 
 /* Completed list section */
