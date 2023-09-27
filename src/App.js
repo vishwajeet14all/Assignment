@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     loadTodosFromLocalStorage();
-  }, []); // Run this effect only on component mount
+  }, []); // This runs only on component mount
 
   const addTodo = (text) => {
     const newTodo = {
@@ -30,12 +30,12 @@ function App() {
     // Update the state
     setTodos([newTodo, ...todos]);
 
-    // Save to local storage
+    // Saveing in local storage
     localStorage.setItem('todos', JSON.stringify([newTodo, ...todos]));
   };
 
   const completeTodo = (id) => {
-    // Check if the todo with the given id is already completed
+    // Checking if the todo with the given id is already completed
     const isAlreadyCompleted = completedTodos.some((todo) => todo.id === id);
   
     if (!isAlreadyCompleted) {
@@ -44,11 +44,11 @@ function App() {
       );
       const completedTodo = todos.find((todo) => todo.id === id);
   
-      // Update the state
+      // Updating the state
       setTodos(updatedActiveTodos);
       setCompletedTodos([completedTodo, ...completedTodos]);
   
-      // Save to local storage
+      // Saveing to local storage
       localStorage.setItem('todos', JSON.stringify(updatedActiveTodos));
       localStorage.setItem('completedTodos', JSON.stringify([completedTodo, ...completedTodos]));
     }
