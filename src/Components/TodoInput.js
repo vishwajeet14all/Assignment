@@ -17,7 +17,7 @@ function TodoInput({ addTodo }) {
   return (
     <input
       type="text"
-      placeholder="Add new TODO..."
+      placeholder="Add new TODO"
       value={inputText}
       onChange={handleInputChange}
       onKeyPress={handleKeyPress}
