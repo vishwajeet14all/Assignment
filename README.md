@@ -43,18 +43,4 @@ Basic CSS styles are applied to the app for a clean and simple design.
 
 The app is designed to work in the latest versions of Google Chrome and Firefox.
 
-## GitHub Repository
-
-You can find the code for this assignment in the following public GitHub repository:
-[Link to GitHub Repository](https://github.com/yourusername/todo-app)
-
-## Additional Notes
-
-- Documentation is kept minimal for brevity.
-- Local storage integration ensures data persistence.
-- Styling can be customized to fit design preferences.
-- Edge cases and assumptions are documented in the code.
-
-For any questions or clarifications, please feel free to contact me.
-
 Enjoy using the TODO app!
